@@ -1,0 +1,2 @@
+# Coder-thoughts
+MERN app
