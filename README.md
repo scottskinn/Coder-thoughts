@@ -20,9 +20,13 @@ Users will be able to sign up and create an account, post their thoughts, and in
 ## Usage
 
 ![login page](./images/login-page.jpg "login page")
+*Login page*
 ![signup page](./images/signup-page.jpg "signup page")
+*Sign up page*
 ![home page](./images/home-page.jpg "home page")
+*Home page*
 ![post page](./images/post-page.jpg "post page")
+*Post page*
 
 ## Contributing
 
