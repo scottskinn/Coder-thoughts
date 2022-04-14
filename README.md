@@ -11,7 +11,7 @@
 
 ## Description
 
-    Users will be able to sign up and create an account, post their thoughts, and interact with other users, just like you might find in the social media apps.
+Users will be able to sign up and create an account, post their thoughts, and interact with other users, just like you might find in the social media apps.
 
 ## Installation
 
@@ -26,17 +26,15 @@
 
 ## Contributing
 
-    If you'd like to add anything, fork it and make it your own!
+If you'd like to add anything, fork it and make it your own!
 
 ## License
-
-  MIT
 
   ![Github license](https://img.shields.io/badge/licence-MIT-blue.svg)
 
 ## Questions
 
-    undefined
+Reach out to me at any time!
 
 [scottskinn](https://github.com/scottskinn/)
 
