@@ -19,10 +19,10 @@ Users will be able to sign up and create an account, post their thoughts, and in
 
 ## Usage
 
-<img src="./images/login-page.jpg" width="300" height="150" alt='login page'>
-<img src="./images/signup-page.jpg" width="300" height="150" alt='login page'>
-<img src="./images/home-page.jpg" width="300" height="150" alt='login page'>
-<img src="./images/post-page.jpg" width="300" height="150" alt='login page'>
+![login page](./images/login-page.jpg "login page")
+![signup page](./images/signup-page.jpg "signup page")
+![home page](./images/home-page.jpg "home page")
+![post page](./images/post-page.jpg "post page")
 
 ## Contributing
 
