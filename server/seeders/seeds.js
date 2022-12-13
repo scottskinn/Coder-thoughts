@@ -7,7 +7,7 @@ db.once('open', async () => {
   await Thought.deleteMany({});
   await User.deleteMany({});
 
-  // create user data
+  {/* create user data*/}
   const userData = [];
 
   for (let i = 0; i < 50; i += 1) {
@@ -20,7 +20,7 @@ db.once('open', async () => {
 
   const createdUsers = await User.collection.insertMany(userData);
 
-  // create friends
+  {/* create friends*/}
   for (let i = 0; i < 100; i += 1) {
     const randomUserIndex = Math.floor(Math.random() * createdUsers.ops.length);
     const { _id: userId } = createdUsers.ops[randomUserIndex];
@@ -35,7 +35,7 @@ db.once('open', async () => {
     await User.updateOne({ _id: userId }, { $addToSet: { friends: friendId } });
   }
 
-  // create thoughts
+  {/* create thoughts*/}
   let createdThoughts = [];
   for (let i = 0; i < 100; i += 1) {
     const thoughtText = faker.lorem.words(Math.round(Math.random() * 20) + 1);
@@ -53,7 +53,7 @@ db.once('open', async () => {
     createdThoughts.push(createdThought);
   }
 
-  // create reactions
+  {/*create reactions*/}
   for (let i = 0; i < 100; i += 1) {
     const reactionBody = faker.lorem.words(Math.round(Math.random() * 20) + 1);
 
